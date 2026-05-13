@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
+    "prebuild": "wrangler types",
     "build": "tsc -b",
     "deploy": "wrangler deploy",
     "cf-typegen": "wrangler types"

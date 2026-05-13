@@ -1,0 +1,7 @@
+# List of source code paths and code owners
+# For more information on the CODEOWNERS file go to:
+# https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners#codeowners-syntax
+
+# Default owners for everything in the repo. Adjust once Saturn assigns
+# maintainers.
+# *       @spikez3r0-os

@@ -1,0 +1,24 @@
+{
+  "name": "saturn-ns-mcp",
+  "private": true,
+  "version": "0.1.0",
+  "description": "NetSuite MCP server on Cloudflare Workers — multi-tenant, OneWorld-aware, OAuth 2.0 M2M (JWT PS256) with TBA fallback.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "tsc -b",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "agents": "^0.0.88",
+    "hono": "^4.7.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "wrangler": "^4.2.0"
+  }
+}

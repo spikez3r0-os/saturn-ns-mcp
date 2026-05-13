@@ -1,0 +1,8 @@
+# Admin console + MCP bearer token — gates /admin and /mcp/*, /sse/*
+ADMIN_TOKEN=replace-with-a-long-random-string
+
+# Optional: NetSuite default environment, "production" or "sandbox"
+NS_DEFAULT_ENVIRONMENT=production
+
+# Required for `wrangler deploy` (not for local dev)
+# CLOUDFLARE_ACCOUNT_ID=your_cloudflare_account_id
